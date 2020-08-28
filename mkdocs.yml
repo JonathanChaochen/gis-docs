@@ -1,5 +1,53 @@
-site_name: GIS Project
+# see example https://github.com/squidfunk/mkdocs-material/blob/master/mkdocs.yml
+site_name: Chao's Docs
+# docs.chaodev.app
+site_url: https://serene-volhard-2aa829.netlify.app/
+
+theme:
+  name: material
+  #   https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+  palette:
+    primary: indigo
+    accent: orange
+  features:
+    - instant
+    - tabs
+  icon:
+    repo: fontawesome/brands/github
+    font:
+      text: Roboto
+      code: Roboto Mono
+# custom_dir: overrides
+
+# extra css and js
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+
+# Repository
+repo_name: chaochen/docs
+repo_url: https://github.com/JonathanChaochen/gis-docs
+# edit_uri: ""
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/JonathanChaochen
+
+# Page tree
 nav:
-    - Home: index.md
-    - About: about.md
-theme: readthedocs
+  - Home: index.md
+  - Getting started:
+      - Installation: getting-started.md
+      - Creating your site: creating-your-site.md
+  - About: about.md
+
+# Google Analytics
+google_analytics:
+  - !!python/object/apply:os.getenv ['GOOGLE_ANALYTICS_TOKEN']
+  - auto
+
+# Copyright
+copyright: Copyright &copy; 2020 Chao Chen
