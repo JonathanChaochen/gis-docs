@@ -46,7 +46,7 @@ nav:
 
 # Google Analytics
 google_analytics:
-  - !!python/object/apply:os.getenv ['GOOGLE_ANALYTICS_TOKEN']
+  - UA-176758834-1
   - auto
 
 # Copyright
