@@ -42,7 +42,9 @@ nav:
   - Getting started:
       - Installation: getting-started.md
       - Creating your site: creating-your-site.md
-  - About: about.md
+  - Environment:
+      - environment.md
+      - about.md
 
 # Google Analytics
 google_analytics:
