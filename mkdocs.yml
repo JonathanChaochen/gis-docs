@@ -45,6 +45,8 @@ nav:
   - Environment:
       - environment.md
       - about.md
+  - Backend:
+      - api.md
 
 # Google Analytics
 google_analytics:
