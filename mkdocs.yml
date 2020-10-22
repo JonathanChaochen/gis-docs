@@ -47,6 +47,8 @@ nav:
       - about.md
   - Backend:
       - api.md
+  - Census:
+      - 2018-census.md
 
 # Google Analytics
 google_analytics:
