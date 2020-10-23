@@ -44,11 +44,12 @@ nav:
       - Creating your site: creating-your-site.md
   - Environment:
       - environment.md
-      - about.md
+      - mongo-command-tool.md
   - Backend:
       - api.md
   - Census:
       - 2018-census.md
+  - Help: help.md
 
 # Google Analytics
 google_analytics:
